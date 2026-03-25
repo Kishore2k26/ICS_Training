@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b;
+
+            Console.Write("Input 1st number: ");
+            while (!int.TryParse(Console.ReadLine(), out a))
+            {
+                Console.Write("Invalid input. Please enter the 1st number: ");
+            }
+
+            Console.Write("Input 2nd number: ");
+            while (!int.TryParse(Console.ReadLine(), out b))
+            {
+                Console.Write("Invalid input. Please enter the 2nd number: ");
+            }
+
+            Console.WriteLine($"You entered: {a} and {b}");
+        }
+    }
+}
