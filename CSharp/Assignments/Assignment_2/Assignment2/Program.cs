@@ -18,8 +18,6 @@ namespace Assignment2
             StringOperations.LengthOfWord();
             StringOperations.ReverseWord();
             StringOperations.SameOrDiff();
-
         }
-
     }
 }

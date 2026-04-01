@@ -3,24 +3,34 @@
   "WorkspaceRootPath": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Assignment2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\arrayoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:arrayoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\StringOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:StringOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\DigitPrinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:DigitPrinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\digitprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:digitprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\DayConvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:DayConvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\dayconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:dayconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\ArrayOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|solutionrelative:ArrayOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}|Assignment2.csproj|c:\\dotnet_training\\csharp\\assignments\\assignment_2\\assignment2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +40,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Assignment2",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Assignment2.csproj",
+              "RelativeDocumentMoniker": "Assignment2.csproj",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Assignment2.csproj",
+              "RelativeToolTip": "Assignment2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-31T09:19:28.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Exceptions.cs",
+              "RelativeDocumentMoniker": "Exceptions.cs",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Exceptions.cs",
+              "RelativeToolTip": "Exceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:11:08.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StringOperations.cs",
               "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\StringOperations.cs",
               "RelativeDocumentMoniker": "StringOperations.cs",
@@ -42,12 +77,11 @@
               "RelativeToolTip": "StringOperations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T05:37:08.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T05:37:08.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DigitPrinter.cs",
               "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\DigitPrinter.cs",
               "RelativeDocumentMoniker": "DigitPrinter.cs",
@@ -55,12 +89,11 @@
               "RelativeToolTip": "DigitPrinter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T05:36:35.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T05:36:35.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DayConvertor.cs",
               "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\DayConvertor.cs",
               "RelativeDocumentMoniker": "DayConvertor.cs",
@@ -68,31 +101,29 @@
               "RelativeToolTip": "DayConvertor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T05:36:01.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T05:36:01.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ArrayOperations.cs",
               "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\ArrayOperations.cs",
               "RelativeDocumentMoniker": "ArrayOperations.cs",
               "ToolTip": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\ArrayOperations.cs",
               "RelativeToolTip": "ArrayOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T05:35:23.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T05:35:23.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxEAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assignments\\Assignment_2\\Assignment2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T05:34:27.693Z",
               "EditorCaption": ""

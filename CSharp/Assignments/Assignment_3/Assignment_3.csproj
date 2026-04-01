@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4F2CAF2-ED27-48C7-B1CF-261C571B79F4}</ProjectGuid>
+    <ProjectGuid>{23D64846-B887-4DE6-BC8A-D94806D56070}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment2</RootNamespace>
-    <AssemblyName>Assignment2</AssemblyName>
+    <RootNamespace>Assignment_3</RootNamespace>
+    <AssemblyName>Assignment_3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day7.Exceptions</StartupObject>
+    <StartupObject>Assignment_3.Student_Q</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,13 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayOperations.cs" />
-    <Compile Include="DayConvertor.cs" />
-    <Compile Include="DigitPrinter.cs" />
-    <Compile Include="Exceptions.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Accounts_Q.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringOperations.cs" />
+    <Compile Include="Sales_Q.cs" />
+    <Compile Include="Student_Q.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
