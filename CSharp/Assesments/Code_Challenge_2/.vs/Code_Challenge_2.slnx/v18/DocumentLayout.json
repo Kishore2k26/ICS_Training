@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|c:\\dotnet_training\\csharp\\assesments\\code_challenge_2\\q1_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|solutionrelative:q1_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|c:\\dotnet_training\\csharp\\assesments\\code_challenge_2\\q3_exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|solutionrelative:q3_exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|c:\\dotnet_training\\csharp\\assesments\\code_challenge_2\\q2_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|solutionrelative:q2_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|c:\\dotnet_training\\csharp\\assesments\\code_challenge_2\\q4_delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD84DA-21E7-44B4-B6B4-FDB08B418F91}|Code_Challenge_2.csproj|solutionrelative:q4_delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q1_Students.cs",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q1_Students.cs",
+              "RelativeDocumentMoniker": "Q1_Students.cs",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q1_Students.cs",
+              "RelativeToolTip": "Q1_Students.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:51:30.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q4_Delegates.cs",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q4_Delegates.cs",
+              "RelativeDocumentMoniker": "Q4_Delegates.cs",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q4_Delegates.cs",
+              "RelativeToolTip": "Q4_Delegates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:51:05.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q3_Exceptions.cs",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q3_Exceptions.cs",
+              "RelativeDocumentMoniker": "Q3_Exceptions.cs",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q3_Exceptions.cs",
+              "RelativeToolTip": "Q3_Exceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:40:04.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q2_Products.cs",
+              "DocumentMoniker": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q2_Products.cs",
+              "RelativeDocumentMoniker": "Q2_Products.cs",
+              "ToolTip": "C:\\DotNet_Training\\CSharp\\Assesments\\Code_Challenge_2\\Q2_Products.cs",
+              "RelativeToolTip": "Q2_Products.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:18:41.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

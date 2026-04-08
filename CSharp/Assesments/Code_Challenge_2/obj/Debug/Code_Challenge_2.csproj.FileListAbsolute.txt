@@ -1,0 +1,7 @@
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\bin\Debug\Code_Challenge_2.exe.config
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\bin\Debug\Code_Challenge_2.exe
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\bin\Debug\Code_Challenge_2.pdb
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\obj\Debug\Code_Challenge_2.csproj.AssemblyReference.cache
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\obj\Debug\Code_Challenge_2.csproj.CoreCompileInputs.cache
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\obj\Debug\Code_Challenge_2.exe
+C:\DotNet_Training\CSharp\Assesments\Code_Challenge_2\obj\Debug\Code_Challenge_2.pdb
