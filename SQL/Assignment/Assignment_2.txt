@@ -1,0 +1,142 @@
+create database assignment
+
+use assignment
+
+1.) Department
+
+create table DEPT(
+	DEPTNO int,
+	DNAME varchar(30),
+	LOC varchar(30)
+);
+
+insert into DEPT(DEPTNO, DNAME, LOC) 
+values
+(10, 'ACCOUNTING', 'NEW YORK'),
+(20, 'RESEARCH', 'DALLAS'),
+(30, 'SALES', 'CHICAGO'),
+(40, 'OPERATIONS', 'BOSTON');
+
+select * from DEPT
+
+2.) Employee
+
+create table EMP(
+	empno int primary key,
+	ename varchar(15),
+	job varchar(20),
+	mgr_id varchar(20),
+	hiredate date,
+	salary bigint,
+	comm varchar(10),
+	deptno int
+);
+
+insert into EMP (empno, ename, job, mgr_id, hiredate, salary, comm, deptno)
+values
+(7369, 'SMITH',  'CLERK',     7902, '1980-12-17',  800,  null, 20),
+(7499, 'ALLEN',  'SALESMAN',  7698, '1981-02-20', 1600,   300, 30),
+(7521, 'WARD',   'SALESMAN',  7698, '1981-02-22', 1250,   500, 30),
+(7566, 'JONES',  'MANAGER',   7839, '1981-04-02', 2975,  null, 20),
+(7654, 'MARTIN', 'SALESMAN',  7698, '1981-09-28', 1250,  1400, 30),
+(7698, 'BLAKE',  'MANAGER',   7839, '1981-05-01', 2850,  null, 30),
+(7782, 'CLARK',  'MANAGER',   7839, '1981-06-09', 2450,  null, 10),
+(7788, 'SCOTT',  'ANALYST',   7566, '1987-04-19', 3000,  null, 20),
+(7839, 'KING',   'PRESIDENT', null, '1981-11-17', 5000,  null, 10),
+(7844, 'TURNER', 'SALESMAN',  7698, '1981-09-08', 1500,     0, 30),
+(7876, 'ADAMS',  'CLERK',     7788, '1987-05-23', 1100,  null, 20),
+(7900, 'JAMES',  'CLERK',     7698, '1981-12-03',  950,  null, 30),
+(7902, 'FORD',   'ANALYST',   7566, '1981-12-03', 3000,  null, 20),
+(7934, 'MILLER', 'CLERK',     7782, '1982-01-23', 1300,  null, 10);
+
+select * from EMP
+
+3.) Question & Answers Queries
+
+1. List all employees whose name begins with 'A'.
+
+select ename from EMP
+where ename like 'A%'
+ 
+2. Select all those employees who don't have a manager. 
+
+select * from EMP
+where mgr_id is null
+
+3. List employee name, number and salary for those employees who earn in the range 1200 to 1400. 
+
+select empno, ename, salary from EMP
+where salary between 1200 and 1800
+
+4. Give all the employees in the RESEARCH department a 10% pay rise. Verify that this has been done by listing all their details before and after the rise.
+
+>> Before update 
+select * from EMP
+where Deptno = 20
+
+>> Update
+update EMP 
+set salary = salary * 1.10
+where Deptno = 20
+
+>> After update
+select * from EMP
+where Deptno = 20
+
+5. Find the number of CLERKS employed. Give it a descriptive heading. 
+
+select count(*) as 'Number of Clerks' from EMP
+where job = 'CLERK'
+
+6. Find the average salary for each job type and the number of people employed in each job. 
+
+select job, avg(salary) as Avg_Salary, count(*) as No_of_Emp from EMP
+group by job
+
+7. List the employees with the lowest and highest salary. 
+
+select ename, salary from EMP
+where salary in (select min(salary) from EMP union select max(salary) from EMP)
+
+8. List full details of departments that don't have any employees. 
+
+select * from DEPT
+where Deptno not in (select distinct Deptno from EMP where Deptno is not null)
+
+9. Get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name. 
+
+select ename, salary from EMP
+where job = 'ANALYST' and Deptno = 20 and salary > 1200 
+order by ename
+
+10. For each department, list its name and number together with the total salary paid to employees in that department. 
+
+select d.deptno, d.dname, sum(e.salary) as 'total_salary' from DEPT d
+join EMP e on d.deptno = e.deptno
+group by d.deptno, d.dname
+
+11. Find out salary of both MILLER and SMITH.
+
+select ename, salary from emp
+where ename in ('MILLER','SMITH')
+
+12. Find out the names of the employees whose name begin with ‘A’ or ‘M’. 
+
+select * from EMP
+where ename like '[AM]%'
+
+13. Compute yearly salary of SMITH.
+ 
+select ename, (salary * 12) as yearly_salary from emp
+where ename = 'SMITH'
+
+14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850. 
+
+select ename, salary from EMP
+where salary not between 1500 and 2850
+
+15. Find all managers who have more than 2 employees reporting to them
+
+select e.empno, e.ename from emp e
+where e.empno in (select mgr_id from emp where mgr_id is not null group by mgr_id having count(*) > 2)
+
