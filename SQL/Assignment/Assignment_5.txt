@@ -1,0 +1,133 @@
+1.) Write a T-Sql based procedure to generate complete payslip of a given employee with respect to the following condition
+
+   a) HRA as 10% of Salary
+   b) DA as 20% of Salary
+   c) PF as 8% of Salary
+   d) IT as 5% of Salary
+   e) Deductions as sum of PF and IT
+   f) Gross Salary as sum of Salary, HRA, DA
+   g) Net Salary as Gross Salary - Deductions
+
+Print the payslip neatly with all details
+
+>> Answer
+
+use assignment
+
+create table trgemployee (
+    emp_id int primary key,
+    emp_name varchar(50),
+    salary decimal(10,2),
+    dept varchar(30)
+);
+
+insert into trgemployee values 
+(1, 'Arjun', 45000, 'IT'),
+(2, 'Meena', 55000, 'HR'),
+(3, 'Ravi', 60000, 'Finance');
+
+select * from trgemployee
+
+create or alter proc generate_payslip @empid int
+as
+begin
+    declare
+        @empname varchar(50),
+        @dept varchar(30),
+        @salary decimal(10,2),
+        @hra decimal(10,2),
+        @da decimal(10,2),
+        @pf decimal(10,2),
+        @it decimal(10,2),
+        @deductions decimal(10,2),
+        @gross_salary decimal(10,2),
+        @net_salary decimal(10,2);
+
+    select
+        @empname = emp_name,
+        @dept = dept,
+        @salary = salary
+    from trgemployee
+    where emp_id = @empid;
+
+    set @hra = @salary * 0.10;
+    set @da = @salary * 0.20;
+    set @pf = @salary * 0.08;
+    set @it = @salary * 0.05;
+
+    set @deductions = @pf + @it;
+    set @gross_salary = @salary + @hra + @da;
+    set @net_salary = @gross_salary - @deductions;
+
+    print 'Pay Slip';
+    print '--------------------------------';
+    print 'Employee_ID   : ' + cast(@empid as varchar);
+    print 'Name          : ' + @empname;
+    print 'Department    : ' + @dept;
+    print '--------------------------------';
+    print 'Basic Salary  : ' + cast(@salary as varchar);
+    print 'HRA (10%)     : ' + cast(@hra as varchar);
+    print 'DA (20%)      : ' + cast(@da as varchar);
+    print 'Gross Salary  : ' + cast(@gross_salary as varchar);
+    print '--------------------------------';
+    print 'PF (8%)       : ' + cast(@pf as varchar);
+    print 'IT (5%)       : ' + cast(@it as varchar);
+    print 'Deductions    : ' + cast(@deductions as varchar);
+    print '--------------------------------';
+    print 'Net Salary    : ' + cast(@net_salary as varchar);
+end;
+
+exec generate_payslip 1;
+
+2.) Create a trigger to restrict data manipulation on EMP table during General holidays. Display the error message like “Due to Independence day you cannot manipulate data” or "Due To Diwali", you cannot manipulate" etc.
+
+Note: Create holiday table with (holiday_date, holiday_name). Store at least 4 holiday details. try to match the dates and stop manipulation.
+
+>> Answer
+
+use assignment
+
+create table holiday (
+    holiday_date date primary key,
+    holiday_name varchar(50)
+);
+
+insert into holiday values 
+('2025-01-26', 'Republic Day'),
+('2025-08-15', 'Independence Day'),
+('2025-10-20', 'Diwali'),
+('2025-12-25', 'Christmas');
+
+select * from holiday
+
+create table trgemployee (
+    emp_id int primary key,
+    emp_name varchar(50),
+    salary decimal(10,2),
+    dept varchar(30)
+);
+
+insert into trgemployee values 
+(1, 'Arjun', 45000, 'IT'),
+(2, 'Meena', 55000, 'HR'),
+(3, 'Ravi', 60000, 'Finance');
+
+select * from trgemployee
+
+create trigger trg_emp_restrict_holidays on trgemployee
+after insert, update, delete
+as
+begin
+    declare @HolidayName varchar(50);
+
+    select @HolidayName = holiday_name from holiday
+    where holiday_date = '2025-10-20';
+
+    if @HolidayName is not null
+    begin
+        rollback transaction;
+        raiserror ('Due to %s you cannot manipulate data', 16, 1, @HolidayName);
+    end
+end;
+
+insert into trgemployee values (5,'Rahul',50000,'HR');
