@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment_2</title>
+</head>
+<body>
+    <script>
+        function area_of_triangle() {
+            let a = 5, b = 6, c = 7;
+
+            let s = (a + b + c) / 2;
+
+            let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+
+            document.write("Area of triangle: " + area + "<br><br>");
+        }
+
+        function pattern() {
+            let n = 5;
+            for (let i = 1; i <= n; i++) {
+                for (let j = 1; j <= i; j++) {
+                    document.write("* ");
+                }
+                document.write("<br>");
+            }
+        }
+
+        function leapyear_or_not() {
+            let year = 2026;
+            if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+                document.write("<br><br>" + year + " is a leap year.");
+            } else {
+                document.write("<br><br>" + year + " is not a leap year.");
+            }
+        }
+
+        function days() {
+            let today = new Date();
+            let currentYear = today.getFullYear();
+
+            let independenceDay = new Date(currentYear, 7, 15); 
+
+            if (today > independenceDay) {
+                independenceDay = new Date(currentYear + 1, 7, 15);
+            }
+
+            let diff = independenceDay - today;
+
+            let daysLeft = Math.ceil(diff / (1000 * 60 * 60 * 24));
+
+            document.write("<br><br>Days left until Independence Day: " + daysLeft);
+        }
+
+        area_of_triangle();
+        pattern();
+        leapyear_or_not();
+        days();
+    </script>
+</body>
+</html>
