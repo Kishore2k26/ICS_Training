@@ -1,0 +1,7 @@
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\bin\Debug\ADO_SQL_CC.exe.config
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\bin\Debug\ADO_SQL_CC.exe
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\bin\Debug\ADO_SQL_CC.pdb
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\obj\Debug\ADO_SQL_CC.csproj.AssemblyReference.cache
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\obj\Debug\ADO_SQL_CC.csproj.CoreCompileInputs.cache
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\obj\Debug\ADO_SQL_CC.exe
+C:\DotNet_Training\ADO\Assesments\ADO_SQL_CC\obj\Debug\ADO_SQL_CC.pdb
